@@ -7,7 +7,7 @@ public class WebPageURLs {
 
     public static final String MAIN_URL = "http://plug-play.pl/";
 
-/*        TODO
+/* TODO:
 Add URLs to: 'SALA 1', 'ALA 2', 'SALA A', 'SALA B' etc.
 */
 }
