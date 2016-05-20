@@ -5,7 +5,7 @@ package plugplaytests.domainobjects;
  */
 public class WebPageContent {
 
-    public static final String PLUGPLAY_TITLE = ".//img[contains(@alt,'PLUG&PLAY1')]";
+    public static final String PLUGPLAY_TITLE = ".//img[contains(@alt,'PLUG&PLAY')]";
     public static final String BOOKING = ".//a[contains(@class,'red-btn')]";
     public static final String PRICING = ".//a[contains(@class,'green-btn')]";
 }
