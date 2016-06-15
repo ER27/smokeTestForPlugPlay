@@ -41,7 +41,7 @@ public class TestIfWebPageIsVisible {
         driver.close();
         driver.quit();
     }
-// something to change again and again
+// something to change again and again ...
     @Test
     public void checkIfBookingAndPricingButtonsAreClickable() {
 
