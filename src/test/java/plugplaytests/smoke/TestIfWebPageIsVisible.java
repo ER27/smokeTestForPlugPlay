@@ -28,6 +28,9 @@ public class TestIfWebPageIsVisible {
 
         driver.navigate().to(MAIN_URL);
         driver.manage().window().maximize();
+//DEBBUGER
+//        String pageTitle = driver.getTitle();
+//        System.out.println(pageTitle);
 
         WebDriverWait wait = new WebDriverWait(driver, 1);
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath(PLUGPLAY_TITLE)));
@@ -38,7 +41,7 @@ public class TestIfWebPageIsVisible {
         driver.close();
         driver.quit();
     }
-
+// something to change
     @Test
     public void checkIfBookingAndPricingButtonsAreClickable() {
 
